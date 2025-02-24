@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recovery Anytime</title>
+    <style>
+        :root {
+            --background: #EAE3D2;
+            --primary: #C98B5C;
+            --secondary: #7C4A33;
+            --accent: #4B2E2A;
+            --text: #2A1D1B;
+            --future-font: 'Rajdhani', sans-serif;
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: var(--future-font);
+            background-color: var(--background);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: var(--primary);
+            padding: 20px;
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--background);
+        }
+        .container {
+            padding: 30px;
+        }
+        .btn {
+            background: var(--secondary);
+            color: var(--background);
+            padding: 15px 30px;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 8px;
+            margin: 10px;
+        }
+        .btn:hover {
+            background: var(--accent);
+        }
+        section {
+            margin: 40px 0;
+        }
+        footer {
+            background: var(--secondary);
+            color: var(--background);
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>Recovery Anytime - 24/7 Support & Resources</header>
+    <div class="container">
+        <section>
+            <h2>Find a 24/7 Meeting</h2>
+            <button class="btn" onclick="location.href='https://www.aa-intergroup.org/'">AA Meetings</button>
+            <button class="btn" onclick="location.href='https://virtual-na.org/'">NA Meetings</button>
+            <button class="btn" onclick="location.href='https://al-anon.org/'">Al-Anon Meetings</button>
+        </section>
+        <section>
+            <h2>Emergency Hotlines</h2>
+            <p><strong>Substance Abuse Helpline:</strong> 1-800-662-HELP (4357)</p>
+            <p><strong>Mental Health Crisis Line:</strong> 988</p>
+            <p><strong>Suicide Prevention Hotline:</strong> 1-800-273-TALK (8255)</p>
+        </section>
+        <section>
+            <h2>Recovery Literature & Resources</h2>
+            <button class="btn" onclick="location.href='https://www.aa.org/the-big-book'">Big Book PDF</button>
+            <button class="btn" onclick="location.href='https://www.na.org/?ID=ips'">NA Literature</button>
+            <button class="btn" onclick="location.href='https://al-anon.org/for-members/members-resources/literature/'">Al-Anon Books</button>
+        </section>
+        <section>
+            <h2>Online Support Communities</h2>
+            <button class="btn" onclick="location.href='https://www.reddit.com/r/recovery/'">Reddit Recovery</button>
+            <button class="btn" onclick="location.href='https://www.intherooms.com/'">In The Rooms</button>
+            <button class="btn" onclick="location.href='https://discord.com/invite/recovery'">Discord Recovery Group</button>
+        </section>
+    </div>
+    <footer>
+        <p>Anonymous & Accessible | Non-Affiliated | Recovery Anytime © 2025</p>
+    </footer>
+</body>
+</html>
