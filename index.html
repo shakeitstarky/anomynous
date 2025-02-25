@@ -14,9 +14,10 @@
             --blue: #3A86FF; /* Added Blue */
             --pink: #FF66B2; /* Added Pink */
             --future-font: 'Rajdhani', sans-serif;
+            --header-font: 'Bungee', cursive;
         }
         
-        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&family=Bungee&display=swap');
         
         body {
             font-family: var(--future-font);
@@ -27,11 +28,13 @@
             text-align: center;
         }
         header {
+            font-family: var(--header-font);
             background: var(--primary);
             padding: 20px;
-            font-size: 24px;
-            font-weight: 600;
+            font-size: 32px;
+            font-weight: 700;
             color: var(--background);
+            text-transform: uppercase;
         }
         .container {
             padding: 30px;
@@ -93,4 +96,3 @@
     </footer>
 </body>
 </html>
-
